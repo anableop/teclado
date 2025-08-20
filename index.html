@@ -1,25 +1,57 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR"> <!-- Define a linguagem da página -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css"
-    <link rel="stylesheet" href="reset.css"
+    <meta charset="UTF-8"> <!-- Codificação de caracteres UTF-8 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Compatibilidade com IE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade -->
+
+    <title>Ana Castela</title> <!-- Título da aba -->
+
+    <!-- Importação da fonte Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+
+    <!-- Ícone da aba -->
+    <link rel="icon" type="image/png" href="img/4043233-anime-away-face-no-nobody-spirited_113254.png">
+
+    <!-- Reset de estilos e CSS principal -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Efeitos som</h1>
-  <h2>Ana Castela</h2>
-  <section class="teclado">
-    <button class="tecla tecla-som-1"><img src="./img/3c35966098848ad6c304bb1e999e9b54.jpg"</button>
-    <button class="tecla tecla-som-2"><img src="./img/5517dcdc154d99306fc7959cf7ec7b2d.jpg"</button>
-    <button class="tecla tecla-som-3"><img src="./img/6969a05d715dbd66357f03303d70a8e8.jpg"</button>
-    <button class="tecla tecla-som-4"><img src="./img/8f8787e08d36d693340ce72755e9b518.jpg"</button>
-    <button class="tecla tecla-som-5"><img src="./img/9f8a084c265f0eb79348b2bfbe12c420.jpg"</button>
-    <button class="tecla tecla-som-6"><img src="./img/c4562aa6942580f86d3f92a1da77dced.jpg"</button>
-    <button class="tecla tecla-som-7"><img src="./img/cfce5174658ce9f5a292ab59c6d4ca63.jpg"</button>
-    <button class="tecla tecla-som-8"><img src="./img/f811b3ce7b1928d2aa320d78a0192ed5.jpg"</button>
-    <button class="tecla tecla-som-9"><img src="./img/f8ca5200fd5dd17c5c7e388f0133613c.jpg"</button>
-  </section>  
+
+    <!-- Título principal -->
+    <h1>Ana Castela</h1>
+
+    <!-- Container das teclas -->
+    <section class="teclado">
+        <!-- Cada botão contém uma imagem ilustrativa -->
+        <button class="tecla tecla_som1"><img src="img/3c35966098848ad6c304bb1e999e9b54.jpg" alt="Som 1"></button>
+        <button class="tecla tecla_som2"><img src="img/5517dcdc154d99306fc7959cf7ec7b2d.jpg" alt="Som 2"></button>
+        <button class="tecla tecla_som3"><img src="img/6969a05d715dbd66357f03303d70a8e8.jpg" alt="Som 3"></button>
+
+        <button class="tecla tecla_som4"><img src="img/8f8787e08d36d693340ce72755e9b518.jpg" alt="Som 4"></button>
+        <button class="tecla tecla_som5"><img src="img/9f8a084c265f0eb79348b2bfbe12c420.jpg" alt="Som 5"></button>
+        <button class="tecla tecla_som6"><img src="img/c4562aa6942580f86d3f92a1da77dced.jpg" alt="Som 6"></button>
+
+        <button class="tecla tecla_som7"><img src="img/cfce5174658ce9f5a292ab59c6d4ca63.jpg" alt="Som 7"></button>
+        <button class="tecla tecla_som8"><img src="img/f811b3ce7b1928d2aa320d78a0192ed5.jpg" alt="Som 8"></button>
+        <button class="tecla tecla_som9"><img src="img/f8ca5200fd5dd17c5c7e388f0133613c.jpg"Som 9"></button>
+    </section>
+
+    <!-- Áudios correspondentes aos botões -->
+    <audio src="sons/01 Boiadeira.mp3" id="som_tecla_som1"></audio>
+    <audio src="sons/29df7664_ANA_CASTELA_-_DONA_DE_MIM_(OFICIAL)(MP3_160K).mp3" id="som_tecla_som2"></audio>
+    <audio src="sons/6157401-palhaca-feat-ana-castela.mp3" id="som_tecla_som3"></audio>
+    <audio src="sons/962fc001_Ana_Castela_-_Pipoco.mp3" id="som_tecla_som4"></audio>
+    <audio src="sons/Ana Castela - Minha Herança (DVD Herança Boiadeira)(MP3_160K).mp3" id="som_tecla_som5"></audio>
+    <audio src="sons/Ana Castela - Solteiro Forçado (DVD Boiadeira Internacional) [f58W_FVXBLg].mp3" id="som_tecla_som6"></audio>
+    <audio src="sons/Ana Castela ft. @alok, @OficialHungria - Lua (DVD Boiadeira Internacional) [2OutJUdvwGY].mp3" id="som_tecla_som7"></audio>
+    <audio src="sons/AUD-20240401-WA0022.mp3" id="som_tecla_som8"></audio>
+    <audio src="sons/Nosso_Quadro.mp3" id="som_tecla_som9"></audio>
+
+    <!-- Script principal -->
+    <script src="main.js"></script>
 </body>
 </html>
