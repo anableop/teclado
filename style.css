@@ -1,10 +1,10 @@
 /* Definição de variáveis globais de cores */
 :root {
-  --cinza: #100f0f;               /* Cinza usado em sombras */
-  --vermelha: #7932dc;         /* Vermelho principal */
-  --vermelha-escura: #1d1d64;  /* Vermelho mais escuro para efeito */
+  --cinza: #e609cc;               /* Cinza usado em sombras */
+  --vermelha: #32dcce;         /* Vermelho principal */
+  --vermelha-escura: #641d1d;  /* Vermelho mais escuro para efeito */
   --branca: #fff;              /* Branco */
-  --luz: #478098;              /* Cor de luz (rosa claro) */
+  --luz: #7d4798;              /* Cor de luz (rosa claro) */
 }
 
 /* Estilos gerais do body */
