@@ -1,7 +1,7 @@
 /* Definição de variáveis globais de cores */
 :root {
   --cinza: #e609cc;               /* Cinza usado em sombras */
-  --vermelha: #32dcce;         /* Vermelho principal */
+  --vermelha: #0f5be9;         /* Vermelho principal */
   --vermelha-escura: #641d1d;  /* Vermelho mais escuro para efeito */
   --branca: #fff;              /* Branco */
   --luz: #7d4798;              /* Cor de luz (rosa claro) */
@@ -36,8 +36,8 @@ h2 {
 
 /* Container do teclado */
 .teclado {
-  background: linear-gradient(to bottom, #080808 0%,#2d2d2d 100%); /* Fundo em degradê cinza */
-  box-shadow: 6px 8px 0 6px #373636, 10px 10px 10px #000;             /* Sombra externa */
+  background: linear-gradient(to bottom, #f10606 0%,#902222 100%); /* Fundo em degradê cinza */
+  box-shadow: 6px 8px 0 6px #de0463, 10px 10px 10px #d60606;             /* Sombra externa */
   border-radius: 30px;                                             /* Bordas arredondadas */
   display: grid;                                                   /* Layout em grid */
   gap: 10px;                                                       /* Espaçamento entre botões */
